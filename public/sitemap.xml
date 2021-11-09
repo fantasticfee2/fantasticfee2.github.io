@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://github.com/fantasticfee2/fantasticfee2.github.io/posts/first_post/</loc>
-    <lastmod>2021-11-09T23:30:52+08:00</lastmod>
-  </url><url>
-    <loc>https://github.com/fantasticfee2/fantasticfee2.github.io/</loc>
-    <lastmod>2021-11-09T23:30:52+08:00</lastmod>
-  </url><url>
-    <loc>https://github.com/fantasticfee2/fantasticfee2.github.io/posts/</loc>
-    <lastmod>2021-11-09T23:30:52+08:00</lastmod>
-  </url><url>
-    <loc>https://github.com/fantasticfee2/fantasticfee2.github.io/categories/</loc>
-  </url><url>
-    <loc>https://github.com/fantasticfee2/fantasticfee2.github.io/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://github.com/fantasticfee2/fantasticfee2.github.io/en/sitemap.xml</loc>
+    
+      <lastmod>2021-11-10T00:48:12+08:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://github.com/fantasticfee2/fantasticfee2.github.io/zh-cn/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://github.com/fantasticfee2/fantasticfee2.github.io/fr/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>

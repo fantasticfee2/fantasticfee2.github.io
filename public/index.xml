@@ -1,20 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Coder</title>
-    <link>https://github.com/fantasticfee2/fantasticfee2.github.io/</link>
-    <description>Recent content on Coder</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 09 Nov 2021 23:30:52 +0800</lastBuildDate><atom:link href="https://github.com/fantasticfee2/fantasticfee2.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://github.com/fantasticfee2/fantasticfee2.github.io/posts/first_post/</link>
-      <pubDate>Tue, 09 Nov 2021 23:30:52 +0800</pubDate>
-      
-      <guid>https://github.com/fantasticfee2/fantasticfee2.github.io/posts/first_post/</guid>
-      <description>aaaaaaaaaaaa</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>LoveIt</title>
+        <link>https://github.com/fantasticfee2/fantasticfee2.github.io/</link>
+        <description>About LoveIt Theme</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 09 Nov 2021 23:58:45 &#43;0800</lastBuildDate>
+            <atom:link href="https://github.com/fantasticfee2/fantasticfee2.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title></title>
+    <link>https://github.com/fantasticfee2/fantasticfee2.github.io/first_post/</link>
+    <pubDate>Tue, 09 Nov 2021 23:30:52 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://github.com/fantasticfee2/fantasticfee2.github.io/first_post/</guid>
+    <description><![CDATA[aaaaaaaaaaaa hello world]]></description>
+</item></channel>
 </rss>
