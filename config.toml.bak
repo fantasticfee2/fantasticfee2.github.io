@@ -1,0 +1,4 @@
+baseURL = 'https://github.com/fantasticfee2/fantasticfee2.github.io'
+languageCode = 'en-us'
+theme = 'coder'
+title = 'Coder'
