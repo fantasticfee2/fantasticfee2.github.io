@@ -2,27 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fantasticfee Blog</title>
-    <link>https://fantasticfee2.netlify.app/</link>
+    <link>https://fantasticfee2.github.io/</link>
     <description>Recent content on Fantasticfee Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Nov 2021 15:14:50 +0800</lastBuildDate><atom:link href="https://fantasticfee2.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Nov 2021 15:14:50 +0800</lastBuildDate><atom:link href="https://fantasticfee2.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hugo and netlify 自动化部署博客</title>
-      <link>https://fantasticfee2.netlify.app/blog/2021-11-12t151450/</link>
+      <link>https://fantasticfee2.github.io/blog/2021-11-12t151450/</link>
       <pubDate>Fri, 12 Nov 2021 15:14:50 +0800</pubDate>
       
-      <guid>https://fantasticfee2.netlify.app/blog/2021-11-12t151450/</guid>
-      <description>子标题 1 正文&amp;hellip;
-子标题 2 正文&amp;hellip;</description>
+      <guid>https://fantasticfee2.github.io/blog/2021-11-12t151450/</guid>
+      <description>为什么用静态网站 正文&amp;hellip;
+操作步骤 首先部署hugo生成自己所需的静态博客网站
+ 使用源码的方式安装使用hugo  git clone https://github.com/gohugoio/hugo.git
+安装扩展版本,以防选择到不支持的主题
+go install --tags extended 生成自己的站点  hugo new site mysite cd mysite genpost -c #创建一个博客目录,用于分类;执行完会在content下生成一个对应的目录,在该目录下还有一个_index文件生成,这里可以参考hugo 的section部分,用于分类文章 git init git submodule add https://github.com/spf13/hyde.git themes/hyde hugo server --theme=hyde --buildDrafts --watch #调试模式启动,本地可以看到自己的网站 hugo --theme=hyde --baseUrl=&amp;#34;https://fantasticfee2.netlify.app/&amp;#34; #在public目录下生成对应的静态文件,用于后续的部署 github上创建仓库fantasticfee2.github.io,然后push到该仓库上  git remote add origin git@github.com:fantasticfee2/fantasticfee2.github.io.git git add -A git commit -m &amp;quot;first commit&amp;quot; git push origin master:main  netlify上设置自动部署应用
+使用github账号登录netlify后,创建新应用,选择main分支,点击下一步;
+netlify会自动识别出hugo,可以一直点击下一步,就完成了;
+deploy有可能失败,需要查看日志,查明失败原因;
+自己犯了git submodule的错误,下载theme时要使用git submodule来下载,否则会报错;</description>
     </item>
     
     <item>
       <title>go并发模型</title>
-      <link>https://fantasticfee2.netlify.app/go/2021-11-12t150924/</link>
+      <link>https://fantasticfee2.github.io/go/2021-11-12t150924/</link>
       <pubDate>Fri, 12 Nov 2021 15:09:24 +0800</pubDate>
       
-      <guid>https://fantasticfee2.netlify.app/go/2021-11-12t150924/</guid>
+      <guid>https://fantasticfee2.github.io/go/2021-11-12t150924/</guid>
       <description>子标题 1 aaaaaaaaa
 子标题 2 bbbbbbbbbb</description>
     </item>

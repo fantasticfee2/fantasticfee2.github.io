@@ -12,10 +12,10 @@
   <meta name="description" content="" />
 
   
-  <link type="text/css" rel="stylesheet" href="https://fantasticfee2.netlify.app/css/print.css" media="print">
-  <link type="text/css" rel="stylesheet" href="https://fantasticfee2.netlify.app/css/poole.css">
-  <link type="text/css" rel="stylesheet" href="https://fantasticfee2.netlify.app/css/syntax.css">
-  <link type="text/css" rel="stylesheet" href="https://fantasticfee2.netlify.app/css/hyde.css">
+  <link type="text/css" rel="stylesheet" href="https://fantasticfee2.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://fantasticfee2.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://fantasticfee2.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://fantasticfee2.github.io/css/hyde.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
 
 
@@ -24,7 +24,7 @@
   <link rel="shortcut icon" href="/favicon.png">
 
   
-  <link href="https://fantasticfee2.netlify.app/index.xml" rel="alternate" type="application/rss+xml" title="Fantasticfee Blog" />
+  <link href="https://fantasticfee2.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Fantasticfee Blog" />
   
 </head>
 
@@ -32,7 +32,7 @@
   <aside class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <a href="https://fantasticfee2.netlify.app/"><h1>Fantasticfee Blog</h1></a>
+      <a href="https://fantasticfee2.github.io/"><h1>Fantasticfee Blog</h1></a>
       <p class="lead">
       An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
       </p>
@@ -40,7 +40,7 @@
 
     <nav>
       <ul class="sidebar-nav">
-        <li><a href="https://fantasticfee2.netlify.app/">Home</a> </li>
+        <li><a href="https://fantasticfee2.github.io/">Home</a> </li>
         
       </ul>
     </nav>
@@ -53,15 +53,26 @@
     <div class="posts">
 <article class="post">
   <h1 class="post-title">
-    <a href="https://fantasticfee2.netlify.app/blog/2021-11-12t151450/">hugo and netlify 自动化部署博客</a>
+    <a href="https://fantasticfee2.github.io/blog/2021-11-12t151450/">hugo and netlify 自动化部署博客</a>
   </h1>
   <time datetime="2021-11-12T15:14:50&#43;0800" class="post-date">Fri, Nov 12, 2021</time>
-  子标题 1 正文&hellip;
-子标题 2 正文&hellip;
+  为什么用静态网站 正文&hellip;
+操作步骤 首先部署hugo生成自己所需的静态博客网站
+ 使用源码的方式安装使用hugo  git clone https://github.com/gohugoio/hugo.git
+安装扩展版本,以防选择到不支持的主题
+go install --tags extended 生成自己的站点  hugo new site mysite cd mysite genpost -c #创建一个博客目录,用于分类;执行完会在content下生成一个对应的目录,在该目录下还有一个_index文件生成,这里可以参考hugo 的section部分,用于分类文章 git init git submodule add https://github.com/spf13/hyde.git themes/hyde hugo server --theme=hyde --buildDrafts --watch #调试模式启动,本地可以看到自己的网站 hugo --theme=hyde --baseUrl=&#34;https://fantasticfee2.netlify.app/&#34; #在public目录下生成对应的静态文件,用于后续的部署 github上创建仓库fantasticfee2.github.io,然后push到该仓库上  git remote add origin git@github.com:fantasticfee2/fantasticfee2.github.io.git git add -A git commit -m &quot;first commit&quot; git push origin master:main  netlify上设置自动部署应用
+使用github账号登录netlify后,创建新应用,选择main分支,点击下一步;
+netlify会自动识别出hugo,可以一直点击下一步,就完成了;
+deploy有可能失败,需要查看日志,查明失败原因;
+自己犯了git submodule的错误,下载theme时要使用git submodule来下载,否则会报错;
+  
+  <div class="read-more-link">
+    <a href="/blog/2021-11-12t151450/">Read More…</a>
+  </div>
   
 </article><article class="post">
   <h1 class="post-title">
-    <a href="https://fantasticfee2.netlify.app/go/2021-11-12t150924/">go并发模型</a>
+    <a href="https://fantasticfee2.github.io/go/2021-11-12t150924/">go并发模型</a>
   </h1>
   <time datetime="2021-11-12T15:09:24&#43;0800" class="post-date">Fri, Nov 12, 2021</time>
   子标题 1 aaaaaaaaa
