@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>about blog on Fantasticfee Blog</title>
-    <link>https://fantasticfee2.github.io/blog/</link>
+    <link>https://fantasticfee2.netlify.app/blog/</link>
     <description>Recent content in about blog on Fantasticfee Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Nov 2021 15:14:06 +0800</lastBuildDate><atom:link href="https://fantasticfee2.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Nov 2021 15:14:06 +0800</lastBuildDate><atom:link href="https://fantasticfee2.netlify.app/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hugo and netlify 自动化部署博客</title>
-      <link>https://fantasticfee2.github.io/blog/2021-11-12t151450/</link>
+      <link>https://fantasticfee2.netlify.app/blog/2021-11-12t151450/</link>
       <pubDate>Fri, 12 Nov 2021 15:14:50 +0800</pubDate>
       
-      <guid>https://fantasticfee2.github.io/blog/2021-11-12t151450/</guid>
+      <guid>https://fantasticfee2.netlify.app/blog/2021-11-12t151450/</guid>
       <description>为什么用静态网站 正文&amp;hellip;
 操作步骤 首先部署hugo生成自己所需的静态博客网站
  使用源码的方式安装使用hugo  git clone https://github.com/gohugoio/hugo.git
